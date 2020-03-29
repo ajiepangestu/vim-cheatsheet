@@ -82,50 +82,32 @@ vaw = select all word
 
 va" = select all "
 
+## Additional Commands
+
+dd / yy - delete/yank the current line
+
+D / C - delete/change until end of line
+
+^ / $ - move to the beginning/end of line
+
+I / A - move to the beginning/end of line and insert
+
+o / O - insert new line above/below current line and insert
+
 ## repetition
 . = repetition command
 
 repeat ci' in some line with ''
 
+Example:
 
+Change foo with bar
 
+Line 1
 
+'foo' -> ci' then type bar
 
+Line 2 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+'foo' -> only . command 
 
