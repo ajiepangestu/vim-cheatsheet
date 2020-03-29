@@ -105,27 +105,27 @@ Change foo with bar
 
 Line 1
 
-'''
+```
 'foo' -> ci' then type bar
-'''
+```
 
 result :
 
-'''
+```
 'bar'
-'''
+```
 
 Line 2 
 
-'''
+```
 'foo' -> only type . 
-'''
+```
 
 result :
 
-'''
+```
 'bar'
-'''
+```
 
 ## Surround
 
@@ -135,25 +135,25 @@ Add ' or " etc to the beginning and end of word
 
 Line 1
 
-'''
+```
 bag -> ysiw then type '
-'''
+```
 
 result :
 
-'''
+```
 'bag'
-'''
+```
 
 Line 2
 
-'''
+```
 bug -> only type . 
-'''
+```
 
 result : 
 
-'''
+```
 'bug'
-'''
+```
 
