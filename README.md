@@ -94,7 +94,7 @@ I / A - move to the beginning/end of line and insert
 
 o / O - insert new line above/below current line and insert
 
-## repetition
+## Repetition
 . = repetition command
 
 repeat ci' in some line with ''
@@ -105,9 +105,55 @@ Change foo with bar
 
 Line 1
 
+'''
 'foo' -> ci' then type bar
+'''
+
+result :
+
+'''
+'bar'
+'''
 
 Line 2 
 
-'foo' -> only . command 
+'''
+'foo' -> only type . 
+'''
+
+result :
+
+'''
+'bar'
+'''
+
+## Surround
+
+Pre-requisites : surround.vim and repeat.vim
+
+Add ' or " etc to the beginning and end of word
+
+Line 1
+
+'''
+bag -> ysiw then type '
+'''
+
+result :
+
+'''
+'bag'
+'''
+
+Line 2
+
+'''
+bug -> only type . 
+'''
+
+result : 
+
+'''
+'bug'
+'''
 
